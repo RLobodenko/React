@@ -1,5 +1,5 @@
 import React from 'react'
-//import Radium from 'radium'
+
 import classes from './Car.css'
 
 
@@ -30,7 +30,7 @@ class Car extends React.Component {
 	render(){ //метод render
 	console.log('Car render')
 	const inputClasses = [classes.input]
-	// => -обозначение какой-то функции
+	
 	if (this.props.name !== '') {
 		inputClasses.push(classes.green)
 	} else {
@@ -69,30 +69,7 @@ className={inputClasses.join(' ')}
 	)
 }
 }
-//function Car() {
-//	return (
-//	<div>This is car component</div>
-//	)
-	
-//}
 
-//const car = () => { //стрелочная функция 
-	//return (
-	//<div>This is car component</div>
-	//)
-//}
-
-//const car = () => (
-
-	//<div>
-	//This is car component
-	//<strong>test</strong>
-	//</div>
-
-//)
-
-// jsx- html подобный синтаксис
-// фигурные скобки- это javascript становится
 
 export default Car
 
