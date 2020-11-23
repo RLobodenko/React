@@ -27,7 +27,7 @@ class Car extends React.Component {
 	
 	
 	
-	render(){ //метод render
+	render(){ 
 	console.log('Car render')
 	const inputClasses = [classes.input]
 	
